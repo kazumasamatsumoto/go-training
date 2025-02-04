@@ -1,0 +1,32 @@
+# OS固有ファイル
+.DS_Store
+Thumbs.db
+
+# Go 向け設定
+# バイナリファイル（Windows, Linux, macOS 用）
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# テストバイナリや出力ファイル
+*.test
+*.out
+
+# ログファイル
+*.log
+
+# 環境変数ファイル
+.env
+
+# IDE/エディタ固有の設定
+.vscode/
+.idea/
+
+# その他、一時ファイルなど
+tmp/
+*.tmp
+
+# (任意) vendor ディレクトリ（Go Modules 利用の場合、管理するか選択）
+# vendor/ 
